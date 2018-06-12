@@ -1,0 +1,28 @@
+<html>
+  <head>
+     <link rel="stylesheet" href="main.css">
+
+  </head>
+<body>
+  
+<h1>FizzBuzz Game</h1>
+
+<div class="center">
+  <p id="Number"></p>
+  <button class="button normal" value="Number" onclick="checkNum()">Normal</button>
+  <button class="button fizz" value="Fizz" onclick="checkFizz()">Fizz</button>
+  <button class="button buzz" value="Buzz" onclick="checkBuzz()">Buzz</button>
+  <button class="button fizzbuzz" value="FizzBuzz" onclick="checkFizzBuzz()">FizzBuzz</button>
+  <p id="wrong"></p>
+  <p class="rules">
+    Rules: </br>
+    If the number can be divided by 3, you must choose Fizz. </br>
+    If the number can be divided by 5, you must choose Buzz. </br>
+    If the number can be divided by both 3 and 5, you must choose FizzBuzz.</br>
+    Otherwise you must choose Normal.
+    Try getting to 100!
+  </p>
+</div>
+
+ <script src="functions.js"></script>
+</html>
